@@ -6,4 +6,8 @@ public class test {
       z = amt;
       n = amt;
    }
+
+   public void printUpdate() {
+      System.out.println("The amount is now: " + z);
+   }
 }
