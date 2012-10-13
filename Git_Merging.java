@@ -17,4 +17,12 @@ public class Test {
    public void printUpdate() {
       System.out.println("The amount is now: " + z);
    }
+
+   public int getZ() {
+      return z;
+   }
+
+   public void setZ(int set) {
+      z = set;
+   }
 }
