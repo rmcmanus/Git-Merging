@@ -1,10 +1,15 @@
 public class Test {
    private static int n;
    private int z;
+   private int x;
    
    public void update(int amt) {
       z = amt;
       n = amt;
+   }
+
+   public void add() {
+      x = z + n;
    }
 
    public int main() {
