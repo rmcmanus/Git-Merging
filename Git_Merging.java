@@ -27,7 +27,4 @@ public class Test {
       return z;
    }
 
-   public void setZ(int set) {
-      z = set;
-   }
 }
